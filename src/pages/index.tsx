@@ -16,23 +16,23 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
+          {/* <p>
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.tsx</code>
-          </p>
+          </p> */}
           <div>
             <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
+              {/* By{' '} */}
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
+                src="/logo.svg"
+                alt="Behwal Logo"
+                className={styles.behwalLogo}
+                width={500}
+                height={64}
                 priority
               />
             </a>
@@ -42,26 +42,17 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
+            src="/logo.svg"
+            alt="Behwal Logo"
+            width={680}
+            height={107}
             priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
+          />          
         </div>
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -75,7 +66,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -89,7 +80,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -103,7 +94,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"

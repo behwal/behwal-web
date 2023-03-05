@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import { GetStaticProps } from "next";
-import { useState } from 'react';
+import { GetServerSideProps } from "next";
 const { CosmosClient } = require("@azure/cosmos");
 
 const inter = Inter({ subsets: ['latin'] })
@@ -150,7 +149,7 @@ export default function Home({ data }: Props) {
   )
 }
 
-export const getStaticProps: GetStaticProps<Props> = async () => {
+export const getServerSideProps: GetServerSideProps<Props> = async () => {
   const endpoint = process.env.COSMOS_DB_ENDPOINT;
   const key = process.env.COSMOS_DB_KEY;
   const databaseName = process.env.COSMOS_DB_DATABASE;

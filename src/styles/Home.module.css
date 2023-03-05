@@ -18,6 +18,20 @@
   font-family: var(--font-mono);
 }
 
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.img_social{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 .description a {
   display: flex;
   justify-content: center;
@@ -179,6 +193,11 @@
     padding: 4rem;
   }
 
+  .social{
+    flex-direction: column;
+  }
+  
+
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
@@ -259,7 +278,7 @@
 
 @media (prefers-color-scheme: dark) {
   .behwalLogo {
-    width: 500px !important;
+    width: 500px ;
   }  
 }
 

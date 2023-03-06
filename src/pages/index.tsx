@@ -81,7 +81,7 @@ export default function Home({ social, menu }: Props) {
           </div>
           <div className={styles.quote}>
             <blockquote><span>&ldquo;</span>
-            At Behwal Game Studio, we are dedicated to creating games that are more than just games, they are experiences that inspire and bring people together. We believe that everyone should have access to fun and great games, no matter what platform they play on. That's why we're constantly pushing the boundaries to create innovative, engaging, and unforgettable games. Our passion for game development is matched only by our commitment to our players, we strive to create games that not only entertain, but also empower and enrich their lives.
+            At Behwal Game Studio, we are dedicated to creating games that are more than just games, they are experiences that inspire and bring people together. We believe that everyone should have access to fun and great games, no matter what platform they play on. That&#63;s why we&#63;re constantly pushing the boundaries to create innovative, engaging, and unforgettable games. Our passion for game development is matched only by our commitment to our players, we strive to create games that not only entertain, but also empower and enrich their lives.
               <span>&rdquo;</span>
               </blockquote>
           </div>

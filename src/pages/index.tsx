@@ -85,14 +85,7 @@ export default function Home({ social, menu }: Props) {
               <span>&rdquo;</span>
               </blockquote>
           </div>
-        </div>
-
-        {/* <div className="video-background">
-          <video autoPlay muted loop>
-            <source src="/background_video.mp4" type="video/mp4" />
-          </video>
-        </div>
-         */}
+        </div>      
       </main>
     </>
   )

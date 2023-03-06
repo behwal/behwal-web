@@ -85,25 +85,6 @@
   padding: 5rem;
 }
 
-.video-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-}
-
-.video-background video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
-
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -149,7 +130,7 @@
   }
 
   .main {
-    padding: 2rem;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
   }
@@ -161,7 +142,7 @@
     flex-direction: column;
     text-align: center;
     gap: 1rem;
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
   
@@ -174,7 +155,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: .01em;
     text-transform: none;
     text-align: center;
